@@ -19,6 +19,6 @@ public class HelloTest {
         // ensure that the code coverage check fails,
         // then uncomment the line below to make it pass.
 
-        hello.sayHello("fr");
+        //hello.sayHello("fr");
     }
 }
