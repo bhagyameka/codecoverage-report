@@ -82,6 +82,13 @@
                             </includes>
                         </configuration>
                     </execution>
+                         <execution>
+				<id>report</id>
+				<phase>test</phase>
+				<goals>
+					<goal>report</goal>
+				</goals>
+			</execution>
 
                     <!--  (3) the check goal by default runs in the verify phase, we want to fail the build if mimimum code coverage checks aren't met -->
                     <execution>
